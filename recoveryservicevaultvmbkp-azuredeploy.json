@@ -3,12 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "vaultName":{
-          "type":"string",
-        "value":"linkedrsv"
+          "type":"string"
       },
       "virtualMachineName":{
-          "type":"string",
-        "value":"nestlevm1"
+          "type":"string"
       }
     },
     "variables": {
