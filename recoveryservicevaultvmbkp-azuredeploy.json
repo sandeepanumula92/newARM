@@ -8,7 +8,7 @@
       },
       "virtualMachineName":{
           "type":"string",
-        "value":"linkednestlevm"
+        "value":"nestlevm1"
       }
     },
     "variables": {
