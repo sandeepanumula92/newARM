@@ -14,7 +14,7 @@
         "v2VmType": "Microsoft.Compute/virtualMachines",
         "v2VmContainer": "iaasvmcontainer;iaasvmcontainerv2;",
         "v2Vm": "vm;iaasvmcontainerv2;",
-        "policyName":"DefaultPolicy"
+        "policyName": "DefaultPolicy"
     },
     "resources": [
          {
