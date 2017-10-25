@@ -55,6 +55,12 @@
     },
     "nicName": {
       "value": "mynestleVMNic11"
+    },
+    "vaultName": {
+      "value": "linkedrsv"
+    },
+    "skuTier": {
+      "value": "Standard"
     }
   }
 }
