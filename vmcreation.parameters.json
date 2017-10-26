@@ -3,40 +3,61 @@
     "contentVersion": "1.0.0.0", 
    "parameters": {
       "storageaccountname": {
-          "value": "nestlepocsa31x"
-          },
-      "vnetName": {
-          "value": "nestlepocvnet11"
-          },
-      "subnet1Name": {
-            "value": "nestlepoc11subnet1"
-          },
-       "subnet2Name": {
-            "value": "nestlepoc11subnet2"
-          },
-      "virtualMachineSize": {
-           "value": "Standard_DS1_v2"
-       }, 
-      "adminUsername": {
-           "value": "vmAdmin"
-       },
-      "adminPassword": {
-           "value": "vmPassword!123"
-       }, 
-      "virtualMachineName": {
-           "value": "nestlevm1"
-       },
-      "dnsLabelPrefix": {
-           "value": "nestledns11"
-       },
-      "windowsOSVersion": {
-           "value": "2016-Datacenter"
-       },
-      "publicIPAddressName": {
-           "value": "nestlePubIP11"
-       },
-       "nicName": {
-           "value": "mynestleVMNic11"
+      "value": "sa26october"
+    },
+    "storageAccountType": {
+      "value": "Standard_GRS"
+    },
+    "vnetName": {
+      "value": "vnet26october"
+    },
+    "subnet1Name": {
+      "value": "subnet1"
+    },
+    "subnet2Name": {
+      "value": "subnet2"
+    },
+    "subnet3Name": {
+      "value": "subnet3"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "10.0.0.0/24"
+    },
+    "subnet2Prefix": {
+      "value": "10.0.1.0/24"
+    },
+    "subnet3Prefix": {
+      "value": "10.0.2.0/24"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "adminUsername": {
+      "value": "adminUser1"
+    },
+    "adminPassword": {
+      "value": "Password@123"
+    },
+    "virtualMachineName": {
+      "value": "vm26october"
+    },
+    "dnsLabelPrefix": {
+      "value": "dns26october"
+    },
+    "windowsOSVersion": {
+      "value": "2016-Datacenter"
+    },
+    "publicIPAddressName": {
+      "value": "PubIP26october"
+    },
+    "nicName": {
+      "value": "VMNic26october"
+    },
+       "applicationName": {
+           "value": "POCApp"
        }
   }
 
