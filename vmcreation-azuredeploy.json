@@ -56,8 +56,8 @@
     }
   },
   "variables": {
-    "nic1": "[concat('nic26october1',uniqueString(resourceGroup().id))]",,
-    //"nic2": "[concat('nic26october2',uniqueString(resourceGroup().id))]",,
+    "nic1": "[concat('nic26october1',uniqueString(resourceGroup().id))]",
+    //"nic2": "[concat('nic26october2',uniqueString(resourceGroup().id))]",
     "nicName": "[parameters('nicName')]",
     "publicIPAddressName": "[parameters('publicIPAddressName')]",
     "storageAccountName": "[parameters('storageaccountname')]",
